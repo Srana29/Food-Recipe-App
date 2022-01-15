@@ -31,8 +31,7 @@ class _HomeState extends State<Home> {
 
 
   getRecipe(String query) async {
-    //String url = "https://api.edamam.com/search?q=$query&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49";
-    String url1 = "https://api.edamam.com/api/recipes/v2/?q=$query&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49&type=public";
+    String url1 = "https://api.edamam.com/api/recipes/v2/?q=$query&app_id=app_id&app_key=app_key&type=public";
     Response response = await get(Uri.parse(url1));
     Map data = jsonDecode(response.body);
     // log(data.toString());
@@ -58,7 +57,7 @@ class _HomeState extends State<Home> {
 
   getDesserts() async {
    // String url = "https://api.edamam.com/search?q=mithai&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49";
-    String url1 = "https://api.edamam.com/api/recipes/v2/?q=mithai&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49&type=public";
+    String url1 = "https://api.edamam.com/api/recipes/v2/?q=mithai&app_id=app_id&app_key=app_key&type=public";
     Response response = await get(Uri.parse(url1));
     Map data = jsonDecode(response.body);
     // log(data.toString());

@@ -25,22 +25,22 @@ class _CategoryState extends State<Category> {
     String url="";
 
     if(query=="Breakfast"){
-      url = "https://api.edamam.com/api/recipes/v2/?q=breakfast&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49&type=public";
+      url = "https://api.edamam.com/api/recipes/v2/?q=breakfast&app_id=app_id&app_key=9b574a94112efe6ec2a4387156300e49&type=public";
 
     }else if(query=="Lunch"){
-      url="https://api.edamam.com/api/recipes/v2/?q=lunch&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49&type=public&cuisineType=Indian&health=vegetarian";
+      url="https://api.edamam.com/api/recipes/v2/?q=lunch&app_id=app_id&app_key=app_key&type=public&cuisineType=Indian&health=vegetarian";
     }else  if (query=="Dinner"){
-      url = "https://api.edamam.com/api/recipes/v2/?q=dinner&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49&type=public&cuisineType=Indian&health=vegetarian";
+      url = "https://api.edamam.com/api/recipes/v2/?q=dinner&app_id=app_id&app_key=app_key&type=public&cuisineType=Indian&health=vegetarian";
     }else if(query=="Diwali"){
-      url="https://api.edamam.com/api/recipes/v2/?q=diwali&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49&type=public&cuisineType=Indian&health=vegetarian";
+      url="https://api.edamam.com/api/recipes/v2/?q=diwali&app_id=app_id&app_key=app_key&type=public&cuisineType=Indian&health=vegetarian";
     } else if(query=="Dessert"){
-      url="https://api.edamam.com/api/recipes/v2/?q=dessert&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49&type=public&cuisineType=Indian&health=vegetarian";
+      url="https://api.edamam.com/api/recipes/v2/?q=dessert&app_id=app_id&app_key=app_key&type=public&cuisineType=Indian&health=vegetarian";
     }else if(query=="Festivals"){
-      url="https://api.edamam.com/api/recipes/v2/?q=festivals&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49&type=public&cuisineType=Indian&health=vegetarian";
+      url="https://api.edamam.com/api/recipes/v2/?q=festivals&app_id=app_id&app_key=app_key&type=public&cuisineType=Indian&health=vegetarian";
     }else if(query=="Navratri"){
-      url="https://api.edamam.com/api/recipes/v2/?q=navratri&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49&type=public&cuisineType=Indian";
+      url="https://api.edamam.com/api/recipes/v2/?q=navratri&app_id=app_id&app_key=app_key&type=public&cuisineType=Indian";
     }else{
-      url="https://api.edamam.com/api/recipes/v2/?q=$query&app_id=c5a75452&app_key=9b574a94112efe6ec2a4387156300e49&type=public";
+      url="https://api.edamam.com/api/recipes/v2/?q=$query&app_id=app_id&app_key=app_key&type=public";
     }
 
 
